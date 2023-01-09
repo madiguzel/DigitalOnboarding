@@ -1,0 +1,81 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name DigitalOnboardingSDK
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import AVFoundation
+import AudioToolbox
+import CallKit
+import CommonCrypto
+import Contacts
+import ContactsUI
+import CoreGraphics
+import CoreImage
+import CoreLocation
+import CoreNFC
+import CoreText
+import CoreVideo
+import CryptoKit
+import Darwin
+@_exported import DigitalOnboardingSDK
+import Foundation
+import Intents
+import LocalAuthentication
+import Photos
+import QuartzCore
+import Security
+import Speech
+import Swift
+import SystemConfiguration
+import UIKit
+import Vision
+import WebKit
+import _Concurrency
+import _StringProcessing
+infix operator <- : DefaultPrecedence
+infix operator >>> : DefaultPrecedence
+extension Foundation.URL : Swift.RawRepresentable {
+  public typealias RawValue = Swift.String
+  public init?(rawValue: Swift.String)
+  public var rawValue: Swift.String {
+    get
+  }
+}
+infix operator ==> : DefaultPrecedence
+public enum DigitalOnboardingResult {
+  case success
+  case courier
+  case error
+  case cancel
+  public static func == (a: DigitalOnboardingSDK.DigitalOnboardingResult, b: DigitalOnboardingSDK.DigitalOnboardingResult) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public typealias DigitalOnboardingResultCallback = (DigitalOnboardingSDK.DigitalOnboardingResult) -> Swift.Void
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class DigitalOnboardingVC : UIKit.UIViewController {
+  @_Concurrency.MainActor(unsafe) convenience public init(resultCallback: @escaping DigitalOnboardingSDK.DigitalOnboardingResultCallback)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) public func loadPreferences(named name: Swift.String, in bundle: Foundation.Bundle)
+  @objc deinit
+}
+infix operator +| : DefaultPrecedence
+infix operator +- : DefaultPrecedence
+extension UIKit.UINavigationController {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var childForStatusBarStyle: UIKit.UIViewController? {
+    @objc get
+  }
+}
+extension UIKit.UILabel {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func layoutSubviews()
+}
+extension UIKit.UITextView {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func layoutSubviews()
+}
+extension UIKit.UIImageView {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var intrinsicContentSize: CoreFoundation.CGSize {
+    @objc get
+  }
+}
+extension DigitalOnboardingSDK.DigitalOnboardingResult : Swift.Equatable {}
+extension DigitalOnboardingSDK.DigitalOnboardingResult : Swift.Hashable {}

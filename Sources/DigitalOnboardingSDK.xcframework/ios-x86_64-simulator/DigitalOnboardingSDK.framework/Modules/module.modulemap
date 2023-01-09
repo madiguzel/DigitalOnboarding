@@ -1,0 +1,20 @@
+framework module DigitalOnboardingSDK {
+  umbrella header "DigitalOnboardingSDK.h"
+
+  private header "/Users/muratadiguzel/Documents/IOSGitRepo/DigitalOnboardingSDK/DigitalOnboardingSDK/Utils/OldProjectSources/ITCipher.h"
+  private header "/Users/muratadiguzel/Documents/IOSGitRepo/DigitalOnboardingSDK/DigitalOnboardingSDK/Utils/OldProjectSources/Base64.h"
+  private header "/Users/muratadiguzel/Documents/IOSGitRepo/DigitalOnboardingSDK/DigitalOnboardingSDK/Utils/OldProjectSources/NSData+Base64.h"
+  private header "/Users/muratadiguzel/Documents/IOSGitRepo/DigitalOnboardingSDK/DigitalOnboardingSDK/Utils/OldProjectSources/NSData+AES256.h"
+  private header "/Users/muratadiguzel/Documents/IOSGitRepo/DigitalOnboardingSDK/DigitalOnboardingSDK/Utils/OldProjectSources/Encrypter.h"
+  private header "/Users/muratadiguzel/Documents/IOSGitRepo/DigitalOnboardingSDK/DigitalOnboardingSDK/Utils/OldProjectSources/NSData+CommonCrypto.h"
+  private header "/Users/muratadiguzel/Documents/IOSGitRepo/DigitalOnboardingSDK/DigitalOnboardingSDK/Utils/OldProjectSources/StringCryptor.h"
+
+  export *
+  module * { export * }
+}
+
+
+module DigitalOnboardingSDK.Swift {
+  header "DigitalOnboardingSDK-Swift.h"
+  requires objc
+}

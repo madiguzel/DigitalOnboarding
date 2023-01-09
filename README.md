@@ -1,2 +1,3 @@
-# DigitalOnboarding
-Digital onboarding SDK for iOS projects.
+# DigitalOnboardingPackage
+
+A description of this package.
