@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
 s.platform = :ios
 s.ios.deployment_target = '12.0'
-s.name = "DigitalOnboarding"
+s.name = "DigitalOnboardingSDK"
 s.summary = "DigitalOnboarding lets your users to become a customer of DenizBank easily."
 s.requires_arc = true
 s.version = "1.0.0"
