@@ -11,7 +11,7 @@ s.author = { "Murat ADIGÜZEL" => "murat.adiguzel@intertech.com.tr" }
 s.homepage = "https://github.com/madiguzel/DigitalOnboarding"
 s.source = { :git => "https://github.com/madiguzel/DigitalOnboarding.git",
              :tag => "#{s.version}" }
-s.vendored_xcframeworks = "Sources/DigitalOnboardingSDK.xcframework"
+s.vendored_framework = "Sources/DigitalOnboardingSDK.xcframework"
 s.swift_version = "5.7"
 s.ios.deployment_target = '13.0'
 s.pod_target_xcconfig = { "EXCLUDED_ARCHS[sdk=iphonesimulator*]" => "arm64" }
