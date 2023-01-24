@@ -148,7 +148,7 @@ Kütüphaneyi projenize entegre ettikten sonra kütüphanenin düzgün şekilde 
     }
     ```
     `DigitalOnboardingResult` aşağıdaki dört durumdan birini döner:
-    
+
     ```swift
     public enum DigitalOnboardingResult {
       case success    // Başvuru başarılı
@@ -157,15 +157,16 @@ Kütüphaneyi projenize entegre ettikten sonra kütüphanenin düzgün şekilde 
       case cancel     // SDK başvuru tamamlanmadan kapatıldı
     }
     ```
-    
-  3. Tanımladığınız closure ile `DigitalOnboardingVC` tanımlayın ve onu sunun.
-  
+
+ 3. Tanımladığınız closure ile `DigitalOnboardingVC` tanımlayın ve onu sunun.
+
     ```swift
     let vc = DigitalOnboardingVC(resultCallback: resultCallback)
     vc.modalPresentationStyle = .fullScreen
     present(vc, animated: true, completion: nil)
     ```
-    
+
+
 ## Kütüphane Konfigürasyonu
 
 Kütüphane ön tanımlı bazı ayarlar ile hazır olarak sunulur. Herhangi bir değişiklik yapmadan çalışır. İhtiyaç duymanız halinde aşağıda belirtilen ayarları değiştirmek için bir ayar dosyası ekleyebilirsiniz.
