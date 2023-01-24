@@ -6,7 +6,7 @@ s.platform = :ios
 s.ios.deployment_target = '13.0'
 s.swift_version = "5.7"
 s.requires_arc = true
-s.version = "1.0.0"
+s.version = "1.0.1"
 s.license = { :type => "Apache License 2.0", :file => "LICENSE" }
 s.author = { "Murat ADIGÜZEL" => "murat.adiguzel@intertech.com.tr" }
 s.homepage = "https://github.com/madiguzel/DigitalOnboarding"

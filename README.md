@@ -1,6 +1,6 @@
 # DigitalOnboardingSDK
 
-[![pod - 1.0.0](https://img.shields.io/badge/pod-1.0.0-blue)](https://cocoapods.org/) 
+[![pod - 1.0.1](https://img.shields.io/badge/pod-1.0.1-blue)](https://cocoapods.org/)
 [![Swift Package Manager - compatible](https://img.shields.io/badge/Swift_Package_Manager-compatible-2ea44f)](https://github.com/apple/swift-package-manager/)
 
 DigitalOnboardingSDK kullanıcılarınızın kolayca DB müşterisi olmasını sağlayan bir kütüphanedir.
@@ -19,7 +19,7 @@ Kütüphaneyi projenize eklemek için aşağıdaki adımları uygulayabilirsiniz
 
    ![image](https://user-images.githubusercontent.com/1685245/213993476-f4a2f9a8-1ebe-4f2e-a3e3-727576d78506.png)
    
- 2. Açılan pencerede arama kutusuna https://github.com/madiguzel/DigitalOnboarding.git yazın `Dependency Rule` seçeneğini `Up to Next Major Version` olarak değiştirin, minimum versiyon kutusuna `1.0.0` değerini girin ve `Add Package` butonuna tıklayın.
+ 2. Açılan pencerede arama kutusuna https://github.com/madiguzel/DigitalOnboarding.git yazın `Dependency Rule` seçeneğini `Up to Next Major Version` olarak değiştirin, minimum versiyon kutusuna `1.0.1` değerini girin ve `Add Package` butonuna tıklayın.
 
    ![image](https://user-images.githubusercontent.com/1685245/213993985-36190e6d-00b4-4889-99dc-22f3858af1b5.png)
    
