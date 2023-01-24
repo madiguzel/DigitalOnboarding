@@ -229,8 +229,6 @@ Renk paletini değiştirmek için ayar dosyasına `Dictionary` türünde `colorP
 
 ![image](https://user-images.githubusercontent.com/1685245/214047478-d33d9826-88c6-43e8-bd91-95977c34c2b8.png)
 
-`colorPalette` sözlüğüne normal modda renk paleti eklemek için `Dictionary` türünde `lightPalette` adında, koyu modda renk paleti eklemek için `Dictionary` türünde `darkPalette` adında değer eklemeniz gerekir. Bu değerleri eklemek zorunlu değildir. İhtiyacınıza göre herhangi birini veya ikisini birden ekleyebilirsiniz.
-
 Renkler ayar dosyasına `String` türünde hexadecimal formatta eklenir. Desteklenen formatlar aşağıda gösterilmiştir.
 
 <table>
