@@ -365,10 +365,53 @@ Kütüphane içerisindeki renk adı ve kullanıldığı yer eşleşmelerini aşa
 </tbody>
 </table>
 
-<img src="https://user-images.githubusercontent.com/1685245/214241329-75245520-6783-4bef-9976-1eca749fc377.png" width="300" /><img src="https://user-images.githubusercontent.com/1685245/214241357-7fd0c281-5b0f-445d-a023-7a35462946ce.png" width="300" /><img src="https://user-images.githubusercontent.com/1685245/214241392-0804e410-b631-41f1-be1a-a64937935130.png" width="300" />
+<img src="https://user-images.githubusercontent.com/1685245/214241329-75245520-6783-4bef-9976-1eca749fc377.png" width="250" /><img src="https://user-images.githubusercontent.com/1685245/214241357-7fd0c281-5b0f-445d-a023-7a35462946ce.png" width="250" /><img src="https://user-images.githubusercontent.com/1685245/214241392-0804e410-b631-41f1-be1a-a64937935130.png" width="250" />
 
-<img src="https://user-images.githubusercontent.com/1685245/214242672-b9786de7-40bb-48ec-8f9f-aed1089f9787.png" width="300" /><img src="https://user-images.githubusercontent.com/1685245/214242681-811baf08-738b-4279-8005-d8548b55784a.png" width="300" /><img src="https://user-images.githubusercontent.com/1685245/214242709-f49a98a4-a918-45ee-a316-a5e1d9082891.png" width="300" />
+<img src="https://user-images.githubusercontent.com/1685245/214242672-b9786de7-40bb-48ec-8f9f-aed1089f9787.png" width="250" /><img src="https://user-images.githubusercontent.com/1685245/214242681-811baf08-738b-4279-8005-d8548b55784a.png" width="250" /><img src="https://user-images.githubusercontent.com/1685245/214242709-f49a98a4-a918-45ee-a316-a5e1d9082891.png" width="250" />
 
-<img src="https://user-images.githubusercontent.com/1685245/214242864-6414f266-30f2-4253-bceb-aa6e603ef0b9.png" width="300" /><img src="https://user-images.githubusercontent.com/1685245/214242908-c998f301-4ab0-4107-b25a-3cb8adc1e8e5.png" width="300" /><img src="https://user-images.githubusercontent.com/1685245/214242931-f013aae1-b38b-43de-8566-e1245d2b9f77.png" width="300" />
+<img src="https://user-images.githubusercontent.com/1685245/214242864-6414f266-30f2-4253-bceb-aa6e603ef0b9.png" width="250" /><img src="https://user-images.githubusercontent.com/1685245/214242908-c998f301-4ab0-4107-b25a-3cb8adc1e8e5.png" width="250" /><img src="https://user-images.githubusercontent.com/1685245/214242931-f013aae1-b38b-43de-8566-e1245d2b9f77.png" width="250" />
 
-<img src="https://user-images.githubusercontent.com/1685245/214243734-85799864-c358-4bc8-9ae3-1ba755981001.png" width="300" /><img src="https://user-images.githubusercontent.com/1685245/214243745-ad13cfa5-50a3-4dcc-a9c1-9317488b7fe5.png" width="300" />
+<img src="https://user-images.githubusercontent.com/1685245/214243734-85799864-c358-4bc8-9ae3-1ba755981001.png" width="250" /><img src="https://user-images.githubusercontent.com/1685245/214243745-ad13cfa5-50a3-4dcc-a9c1-9317488b7fe5.png" width="250" />
+
+
+#### ii. Karanlık Mod
+
+Karanlık modu kullanabilmeniz için ayar dosyasına `Boolean` türünde `darkMode` adında değer eklemeniz gerekir. `darkMode` değeri `NO` olarak ayarlandığında cihaz karanlık koda alınsa da normal mod renk paleti kullanılır. `darkMode` değeri `YES` olarak ayarlandığında cihaz karanlık moda alındığında karanlık mod renk paleti kullanılır.
+
+![image](https://user-images.githubusercontent.com/1685245/214305425-add951dd-0602-461d-ab39-0965461d9583.png)
+
+> **Warning**<br>
+> `darkMode` değeri `YES` olarak ayarlandığında ayar dosyasına `darkPalette` değeri de eklenmesi gerekir. Eklenmediği durumda normal mod renk paleti     kullanılır. 
+
+
+#### iii. Font
+
+Fontu değiştirmek için ayar dosyasına `Dictionary` türünde `font` adında değer eklemeniz gerekir.
+
+![image](https://user-images.githubusercontent.com/1685245/214305702-ecf01383-b81e-4767-ba32-cab90770cd45.png)
+
+`font` sözlüğüne aşağıdaki gibi `Normal`, `Semibold` ve `Bold` adında üç adet `String` türünde değer eklenmesi gerekir.
+
+![image](https://user-images.githubusercontent.com/1685245/214305819-8d31ea04-40bd-4953-9c3a-d67817d2f9ee.png)
+
+
+#### iv. Kurye Akışı
+
+Başvuru sırasında kurye akışının kullanılıp kullanılmayacağı belirtmek için ayar dosyasına `Boolean` türünde `courierChoice` değeri eklenebilir. Kurye akışı varsayılan olarak kapalıdır. `courierChoice` değeri `YES` olarak ayarlandığı durumda başvuru kurye akışı ile devam ettirilebilir.
+
+![image](https://user-images.githubusercontent.com/1685245/214305984-e9bad039-d92d-4d24-af18-764f627ed0ed.png)
+
+
+#### v. Doğrulama Türleri
+
+Başvuru sırasında desteklenen doğrulama türlerinden hangilerinin kullanılabileceğini belirtmek için ayar dosyasına `Array` türünde `verificationTypes` değeri eklenir.
+
+![image](https://user-images.githubusercontent.com/1685245/214306138-de6f1131-538e-4969-9963-31907f35855a.png)
+
+Doğrulama türü olarak çipli kimlik kartı kullanılacak ise `verificationTypes` listesine `String` türünde `IdCard` değeri eklenir.
+
+![image](https://user-images.githubusercontent.com/1685245/214306228-c8ec911c-2372-488a-a6b3-08fc00264de2.png)
+
+> **Note**<br>
+> Şu an için kullanılabilen tek doğrulama türü çipli kimlik kartı olduğundan ayar dosyanıza bu ayarı eklemeniz gerekmez.
+
