@@ -1,9 +1,9 @@
 # DigitalOnboardingSDK
 
-DigitalOnboardingSDK kullanıcılarınızın kolayca DB müşterisi olmasını sağlayan bir kütüphanedir.
-
 [![pod - 1.0.0](https://img.shields.io/badge/pod-1.0.0-blue)](https://cocoapods.org/) 
 [![Swift Package Manager - compatible](https://img.shields.io/badge/Swift_Package_Manager-compatible-2ea44f)](https://github.com/apple/swift-package-manager/)
+
+DigitalOnboardingSDK kullanıcılarınızın kolayca DB müşterisi olmasını sağlayan bir kütüphanedir.
 
 ## Gereksinimler
 
