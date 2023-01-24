@@ -73,7 +73,8 @@ Kütüphaneyi projenize eklemek için aşağıdaki adımları uygulayabilirsiniz
 
     ![image](https://user-images.githubusercontent.com/1685245/213997072-6979e5eb-9217-492f-984e-8294f876197b.png)
 
- 4. `Build Phases` tabında `Link Binary With Libraries` bölümünde `+` ikonuna tıkladıktan sonra `Add Other` menüsü açın ve `Add Files…` seçeceğini seçin.   
+ 4. `Build Phases` tabında `Link Binary With Libraries` bölümünde `+` ikonuna tıkladıktan sonra `Add Other` menüsü açın ve `Add Files…` seçeceğini seçin. 
+
     ![image](https://user-images.githubusercontent.com/1685245/213997336-8f0396d8-f818-44de-8dba-5c09ab96cac0.png)
     
  5. Açılan Finder penceresinde oluşturduğunuz `Frameworks` dizinine gidin ve `DigitalOnboardingSDK.xcframework` dosyasını seçin ve Aç’a tıklayın. Kütüphanenin Link `Library With Libraries` bölümüne eklendiğinden emin olun.
@@ -87,7 +88,7 @@ Kütüphaneyi projenize eklemek için aşağıdaki adımları uygulayabilirsiniz
 
 ## Proje Konfigürasyonu
 
-Kütüphaneyi projenize entegre ettikten sonra SDK’in düzgün şekilde çalışabilmesi için aşağıdaki konfigürasyonları uygulayın.
+Kütüphaneyi projenize entegre ettikten sonra kütüphanenin düzgün şekilde çalışabilmesi için aşağıdaki konfigürasyonları uygulayın.
 
  1. `Signing & Capabilities` tabında `+Capability` butonuna dokunun. Açılan pencerede `Near Field Communication Tag Reading`i aratıp ekleyin.
  
