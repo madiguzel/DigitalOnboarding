@@ -216,11 +216,159 @@ Renk paletini değiştirmek için ayar dosyasına `Dictionary` türünde `colorP
 
 Renkler ayar dosyasına `String` türünde hexadecimal formatta eklenir. Desteklenen formatlar aşağıda gösterilmiştir.
 
-| Format     | Açıklama | Örnek | Görünüm |
-| :-------: | :-------- | :-----: | :-------: |
-| (aa)rrggbb  | aa - Transparan kodu (Opsiyonel)<br>rr - Kırmızı renk kodu<br>gg - Yeşil renk kodu<br>bb - Mavi renk kodu | 4290f7  | ![image](https://user-images.githubusercontent.com/1685245/214053922-48da0db4-1224-4c6b-b864-8cd0d4a403b3.png) |
-|||d801017b|![image](https://user-images.githubusercontent.com/1685245/214054090-9c38917d-b966-476a-a570-d80bc71dc423.png) |
-|(aa)rrggbb;(aa)rrggbb;((aa)rrggbb)(\|H)|aa - Transparan kodu (Opsiyonel)<br>rr - Kırmızı renk kodu<br>gg - Yeşil renk kodu<br>bb - Mavi renk kodu<br><br>; - Renk ayracı<br>\| - Renk- Gradient yön ayracı<br><br>H - Yatay gradient uygulama (Opsiyonel)|ffdc7c;f9b626<br>(2 duraklı yatay renk geçişi)|![image](https://user-images.githubusercontent.com/1685245/214053712-9781065b-fe1f-4098-9816-852a5790b471.png)|
-|||3772ca;1e3da5;01017b\|H<br>(3 duraklı yatay renk geçişi)|![image](https://user-images.githubusercontent.com/1685245/214054424-17d2157b-2744-416c-bb5d-8216a809200b.png)|
-|(aa)rrggbb;(aa)rrggbb;((aa)rrggbb)\|V|aa - Transparan kodu (Opsiyonel)<br>rr - Kırmızı renk kodu<br>gg - Yeşil renk kodu<br>bb - Mavi renk kodu<br><br>; - Renk ayracı<br>\| - Renk- Gradient yön ayracı<br><br>V - Dikey gradient uygulama (Dikey uygulamada zorunludur.)|ffdc7c;f9b626\|V<br>(2 duraklı dikey renk geçişi)|![image](https://user-images.githubusercontent.com/1685245/214055458-c32763b7-6887-4d7f-bf4c-fc75d2b62981.png)|
-|||d83772ca;1e3da5;01017b\|V<br>(3 duraklı dikey renk geçişi)|![image](https://user-images.githubusercontent.com/1685245/214055724-975bbb25-6035-4bbd-bae7-bee176ba3487.png)|
+<table>
+<thead>
+  <tr>
+    <th>Format</th>
+    <th>Açıklama</th>
+    <th>Örnek</th>
+    <th>Görünüm</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td rowspan="2">(aa)rrggbb</td>
+    <td rowspan="2">aa - Transparan kodu (Opsiyonel)<br>rr - Kırmızı renk kodu<br>gg - Yeşil renk kodu<br>bb - Mavi renk kodu</td>
+    <td>4290f7</td>
+    <td><img src="https://user-images.githubusercontent.com/1685245/214053922-48da0db4-1224-4c6b-b864-8cd0d4a403b3.png" width="236" height="100"></td>
+  </tr>
+  <tr>
+    <td>d801017b</td>
+    <td><img src="https://user-images.githubusercontent.com/1685245/214054090-9c38917d-b966-476a-a570-d80bc71dc423.png" width="236" height="100"></td>
+  </tr>
+  <tr>
+    <td rowspan="2">(aa)rrggbb;(aa)rrggbb;((aa)rrggbb)(|H)</td>
+    <td rowspan="2">aa - Transparan kodu (Opsiyonel)<br>rr - Kırmızı renk kodu<br>gg - Yeşil renk kodu<br>bb - Mavi renk kodu<br><br>; - Renk ayracı<br>| - Renk- Gradient yön ayracı<br><br>H - Yatay gradient uygulama (Opsiyonel)</td>
+    <td>ffdc7c;f9b626<br>(2 duraklı yatay renk geçişi)</td>
+    <td><img src="https://user-images.githubusercontent.com/1685245/214053712-9781065b-fe1f-4098-9816-852a5790b471.png" width="236" height="100"></td>
+  </tr>
+  <tr>
+    <td>3772ca;1e3da5;01017b|H<br>(3 duraklı yatay renk geçişi)<br></td>
+    <td><img src="https://user-images.githubusercontent.com/1685245/214054424-17d2157b-2744-416c-bb5d-8216a809200b.png" width="236" height="100"></td>
+  </tr>
+  <tr>
+    <td rowspan="2">(aa)rrggbb;(aa)rrggbb;((aa)rrggbb)|V</td>
+    <td rowspan="2">aa - Transparan kodu (Opsiyonel)<br>rr - Kırmızı renk kodu<br>gg - Yeşil renk kodu<br>bb - Mavi renk kodu<br><br>; - Renk ayracı<br>| - Renk- Gradient yön ayracı<br><br>V - Dikey gradient uygulama<br>(Dikey uygulamada zorunludur.)</td>
+    <td>ffdc7c;f9b626|V<br>(2 duraklı dikey renk geçişi)<br></td>
+    <td><img src="https://user-images.githubusercontent.com/1685245/214055458-c32763b7-6887-4d7f-bf4c-fc75d2b62981.png" width="236" height="100"></td>
+  </tr>
+  <tr>
+    <td>d83772ca;1e3da5;01017b|V<br>(3 duraklı dikey renk geçişi)</td>
+    <td><img src="https://user-images.githubusercontent.com/1685245/214055724-975bbb25-6035-4bbd-bae7-bee176ba3487.png" width="236" height="100"></td>
+  </tr>
+</tbody>
+</table>
+
+
+![image](https://user-images.githubusercontent.com/1685245/214233076-0997157c-7cb3-4337-9a82-dfd07ae1b9ea.png)
+
+Kütüphane içerisindeki renk adı ve kullanıldığı yer eşleşmelerini aşağıda görebilirsiniz.
+
+<table>
+<tbody>
+   <tr>
+    <td>1. navigationBar </td>
+    <td>17. secondaryButtonHighlightedText </td>
+    <td>33. textDisabled </td>
+    <td>49. linkButton </td>
+  </tr>
+  <tr>
+    <td>2. landingItemTitle </td>
+    <td>18. secondaryButtonDisabled </td>
+    <td>34. errorText </td>
+    <td>50. addressViewBackground </td>
+  </tr>
+  <tr>
+    <td>3. warningGradient </td>
+    <td>19. secondaryButtonDisabledText </td>
+    <td>35. fieldBorder </td>
+    <td>51. addressViewBorder </td>
+  </tr>
+  <tr>
+    <td>4. warningTitle </td>
+    <td>20. secondaryButtonBorder </td>
+    <td>36. fieldBackground </td>
+    <td>52. addressViewBorderSelected </td>
+  </tr>
+  <tr>
+    <td>5. warningBackground </td>
+    <td>21. switchActive </td>
+    <td>37. fieldDisabledBackground </td>
+    <td>53. addressViewText </td>
+  </tr>
+  <tr>
+    <td>6. primary </td>
+    <td>22. switchInactive </td>
+    <td>38. placeholder </td>
+    <td>54. addressViewTextSelected </td>
+  </tr>
+  <tr>
+    <td>7. primaryButton </td>
+    <td>23. switchOnTint </td>
+    <td>39. errorPlaceholder </td>
+    <td>55. addressViewEdit </td>
+  </tr>
+  <tr>
+    <td>8. primaryButtonText </td>
+    <td>24. switchThumbTint </td>
+    <td>40. zebra1 </td>
+    <td>56. infoText </td>
+  </tr>
+  <tr>
+    <td>9. primaryButtonHighlighted </td>
+    <td>25. switchOnThumbTint </td>
+    <td>41. zebra2 </td>
+    <td>57. inputRightView </td>
+  </tr>
+  <tr>
+    <td>10. primaryButtonHighlightedText </td>
+    <td>26. switchOnText </td>
+    <td>42. progressBar</td>
+    <td>58. tableSectionTitle </td>
+  </tr>
+  <tr>
+    <td>11. primaryButtonDisabled </td>
+    <td>27. switchOffText </td>
+    <td>43. progressTrack </td>
+    <td>59. tableSeparator </td>
+  </tr>
+  <tr>
+    <td>12. primaryButtonDisabledText </td>
+    <td>28. switchBorder </td>
+    <td>44. floatingView </td>
+    <td>60. tableSelection </td>
+  </tr>
+  <tr>
+    <td>13. primaryButtonBorder </td>
+    <td>29. overlay </td>
+    <td>45. secureInputText </td>
+    <td>61. idCardFocus </td>
+  </tr>
+  <tr>
+    <td>14. secondaryButton </td>
+    <td>30. background </td>
+    <td>46. secureInputBorder </td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>15. secondaryButtonText </td>
+    <td>31. navigationItem </td>
+    <td>47. secureInputDefaultIndicator </td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>16. secondaryButtonHighlighted </td>
+    <td>32. text </td>
+    <td>48. secureInputActiveIndicator </td>
+    <td></td>
+  </tr>
+</tbody>
+</table>
+
+<img src="https://user-images.githubusercontent.com/1685245/214241329-75245520-6783-4bef-9976-1eca749fc377.png" width="300" /><img src="https://user-images.githubusercontent.com/1685245/214241357-7fd0c281-5b0f-445d-a023-7a35462946ce.png" width="300" /><img src="https://user-images.githubusercontent.com/1685245/214241392-0804e410-b631-41f1-be1a-a64937935130.png" width="300" />
+
+<img src="https://user-images.githubusercontent.com/1685245/214242672-b9786de7-40bb-48ec-8f9f-aed1089f9787.png" width="300" /><img src="https://user-images.githubusercontent.com/1685245/214242681-811baf08-738b-4279-8005-d8548b55784a.png" width="300" /><img src="https://user-images.githubusercontent.com/1685245/214242709-f49a98a4-a918-45ee-a316-a5e1d9082891.png" width="300" />
+
+<img src="https://user-images.githubusercontent.com/1685245/214242864-6414f266-30f2-4253-bceb-aa6e603ef0b9.png" width="300" /><img src="https://user-images.githubusercontent.com/1685245/214242908-c998f301-4ab0-4107-b25a-3cb8adc1e8e5.png" width="300" /><img src="https://user-images.githubusercontent.com/1685245/214242931-f013aae1-b38b-43de-8566-e1245d2b9f77.png" width="300" />
+
+<img src="https://user-images.githubusercontent.com/1685245/214243734-85799864-c358-4bc8-9ae3-1ba755981001.png" width="300" /><img src="https://user-images.githubusercontent.com/1685245/214243745-ad13cfa5-50a3-4dcc-a9c1-9317488b7fe5.png" width="300" />
