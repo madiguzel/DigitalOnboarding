@@ -19,7 +19,7 @@ Kütüphaneyi projenize eklemek için aşağıdaki adımları uygulayabilirsiniz
 
    ![image](https://user-images.githubusercontent.com/1685245/213993476-f4a2f9a8-1ebe-4f2e-a3e3-727576d78506.png)
    
- 2. Açılan pencerede arama kutusuna https://github.com/madiguzel/DigitalOnboarding.git yazın `Dependency Rule` seçeneğini `Up to Next Major Version` olarak değiştirin, minimum versiyon kutusuna `1.0.1` değerini girin ve `Add Package` butonuna tıklayın.
+ 2. Açılan pencerede arama kutusuna https://github.com/madiguzel/DigitalOnboarding.git yazın `Dependency Rule` seçeneğini `Up to Next Major Version` veya `Exact` olarak değiştirin, versiyon/minimum versiyon kutusuna `1.0.1` değerini girin ve `Add Package` butonuna tıklayın.
 
    ![image](https://user-images.githubusercontent.com/1685245/213993985-36190e6d-00b4-4889-99dc-22f3858af1b5.png)
    
@@ -68,7 +68,7 @@ Kütüphaneyi projenize eklemek için aşağıdaki adımları uygulayabilirsiniz
 - ### Manuel ekleme
 
  1. Eğer yoksa proje dizininde `Frameworks` adlı bir klasör yaratın.
- 2. İletilen `DigitalOnboardingSDK.xcframework` dosyasını bu klasöre kopyalayın.
+ 2. `DigitalOnboardingSDK.xcframework` dosyasını bu klasöre kopyalayın.
  3. Uygulamanızın target’ını seçtikten sonra `Build Settings` tabında `Framework Search Paths` bölümüne `$(PROJECT_DIR)/Frameworks` satırını ekleyin.
 
     ![image](https://user-images.githubusercontent.com/1685245/213997072-6979e5eb-9217-492f-984e-8294f876197b.png)
